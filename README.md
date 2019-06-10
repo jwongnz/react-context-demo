@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). <br>
-Following Stephen Grinder's tutorial on The Context System with React <br>
-The purpose is to demonstrate the React context system, which is similar to the props system except that any nested child can access the context, rather than just direct children.<br>
-2 ways to populate context - Default values and Providers <br>
-2 ways to read from context - this.context and Consumers (useful for when you want to read from more than one context)
+
+## Overview
+This app follows a Stephen Grinder tutorial on The Context System with React <br>
+The purpose is to demonstrate the React context system, and show an example of how you can use context to replace redux (for educational purposes, not to advocate it).<br>
 
 ## Available Scripts
 

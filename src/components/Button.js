@@ -15,7 +15,7 @@ class Button extends React.Component {
           {/* Use Consumers when you want to access more than one context.
               Consumers must take a function as the child/argument */}
           <LanguageContext.Consumer>
-            {(language) => this.renderSubmit(language)}
+            {({language}) => this.renderSubmit(language)}
           </LanguageContext.Consumer>
         </button>
         }
